@@ -47,23 +47,6 @@ function playRound() {
   whoGoesFirst = randomNum(0,2)
   //0 = player goes first, 1 = monster goes first
   
-  //use if/else to determine who goes first
-  // if (whoGoesFirst === 0) {
-  //   playerAttack()
-  //   if (monsterHealth > 0) {
-  //     monsterAttack()
-  //   } else {
-  //     alert ("error 1")
-  //   }
-  // } else {
-  //   monsterAttack()
-  //   if (playerHealth > 0) {
-  //     playerAttack()
-  //   } else {
-  //     alert ("error 2")
-  //   }
-  // }
-
   if (whoGoesFirst === 0) {
     playerAttack()
     if (monsterHealth > 0) {
